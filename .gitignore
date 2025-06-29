@@ -1,0 +1,20 @@
+# Ignore Python virtual environment
+lambda/.venv/
+
+# Ignore environment variable files
+.env
+lambda/.env
+
+# Ignore lambda deployment zip
+lambda/lambda.zip
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Terraform state files and sensitive data
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+.terraform/
